@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-integer@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-delta-ratio@esm/index.mjs";import a from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-falling-factorial@esm/index.mjs";var i=s,r=t,m=e,n=a;var d=function(s,t){var e,a;return r(s)||!i(t)?NaN:s<0?(t<0&&(s+=t,t=-t,a=!0),e=(1&t?-1:1)*n(-s,t),a&&(e=1/e),e):0===t?1:0===s?t<0?-m(s+1,-t):0:s<1&&s+t<0?(e=m(1-s,-t),1&t?-e:e):1/m(s,t)};export{d as default};
+//# sourceMappingURL=index.mjs.map
