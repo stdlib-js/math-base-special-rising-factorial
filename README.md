@@ -30,14 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-rising-factorial
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@deno/mod.js';
+var risingFactorial = require( '@stdlib/math-base-special-rising-factorial' );
 ```
 
 #### risingFactorial( x, n )
@@ -85,9 +101,9 @@ var v = risingFactorial( 2.0, 1.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@deno/mod.js';
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var ceil = require( '@stdlib/math-base-special-ceil' );
+var risingFactorial = require( '@stdlib/math-base-special-rising-factorial' );
 
 var n;
 var x;
@@ -112,7 +128,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/falling-factorial`][@stdlib/math/base/special/falling-factorial]</span><span class="delimiter">: </span><span class="description">compute the falling factorial.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/falling-factorial`][@stdlib/math/base/special/falling-factorial]</span><span class="delimiter">: </span><span class="description">compute the falling factorial.</span>
 
 </section>
 
@@ -127,7 +143,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -166,7 +182,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -184,7 +200,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial/tree/deno
+[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial
 
 <!-- </related-links> -->
 
