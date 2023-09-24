@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-rising-factorial/tags). For example,
+
+```javascript
 import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.1.0-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ var v = risingFactorial( 2.0, 1.5 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@esm/index.mjs';
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.1.0-esm/index.mjs';
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@esm/index.mjs';
 
 var n;
 var x;
