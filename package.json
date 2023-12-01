@@ -43,7 +43,7 @@
     "@stdlib/math-base-special-gamma-delta-ratio": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/math-base-special-ceil": "^0.1.1",
