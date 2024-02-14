@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-rising-factorial/tags). For example,
+
+```javascript
 import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.2.0-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ var v = risingFactorial( 2.0, 1.5 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@deno/mod.js';
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.2.0-deno/mod.js';
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@deno/mod.js';
 
 var n;
 var x;
