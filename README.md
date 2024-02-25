@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@esm/index.mjs';
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.2.1-esm/index.mjs';
 ```
 
 #### risingFactorial( x, n )
@@ -103,7 +103,7 @@ var v = risingFactorial( 2.0, 1.5 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@esm/index.mjs';
-import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@esm/index.mjs';
+import risingFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rising-factorial@v0.2.1-esm/index.mjs';
 
 var n;
 var x;
