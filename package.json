@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-rising-factorial",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compute the rising factorial.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
@@ -37,21 +37,21 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-assert-is-integer": "^0.2.4",
-    "@stdlib/math-base-assert-is-nan": "^0.2.1",
+    "@stdlib/math-base-assert-is-integer": "^0.2.5",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-special-falling-factorial": "^0.2.1",
     "@stdlib/math-base-special-gamma-delta-ratio": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/constants-float64-eps": "^0.2.1",
-    "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-ceil": "^0.2.1",
-    "@stdlib/math-base-special-round": "^0.2.1",
+    "@stdlib/constants-float64-eps": "^0.2.2",
+    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/math-base-special-ceil": "^0.2.2",
+    "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
