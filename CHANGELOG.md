@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`b9af090`](https://github.com/stdlib-js/stdlib/commit/b9af09027170bf2731cdd50563be1a9d0f86b289) - **bench:** update random value generation [(#6400)](https://github.com/stdlib-js/stdlib/pull/6400) _(by Harsh)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Harsh
+-   Karan Anand
 
 </section>
 
