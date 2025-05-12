@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-05-12)
+
+<section class="features">
+
+### Features
+
+-   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`c9777d9`](https://github.com/stdlib-js/stdlib/commit/c9777d9355e9a8d91a8081b869d303f821da245d) - **feat:** add C implementation for `math/base/special/rising-factorial` [(#4455)](https://github.com/stdlib-js/stdlib/pull/4455) _(by Dhruv Arvind Singh, Karan Anand, Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`b9af090`](https://github.com/stdlib-js/stdlib/commit/b9af09027170bf2731cdd50563be1a9d0f86b289) - **bench:** update random value generation [(#6400)](https://github.com/stdlib-js/stdlib/pull/6400) _(by Harsh)_
 
@@ -25,10 +36,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Dhruv Arvind Singh
 -   Harsh
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
