@@ -42,9 +42,9 @@
   "dependencies": {
     "@stdlib/math-base-assert-is-integer": "^0.2.6",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/math-base-napi-binary": "^0.3.1",
-    "@stdlib/math-base-special-falling-factorial": "^0.2.2",
-    "@stdlib/math-base-special-gamma-delta-ratio": "^0.2.2",
+    "@stdlib/math-base-napi-binary": "^0.3.2",
+    "@stdlib/math-base-special-falling-factorial": "^0.3.0",
+    "@stdlib/math-base-special-gamma-delta-ratio": "^0.3.0",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
